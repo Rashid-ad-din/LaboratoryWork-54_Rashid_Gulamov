@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block title %} Добавить продукт {% endblock %}
+
+{% block content %}
+
+    {% if product %}
+        <form method="POST" action="{% url 'edit_product' product.pk %}">
+    {% else %}
+        <form method="POST" action="{% url 'add_product' %}">
+    {% endif %}
+
+{% csrf_token %}
+<div class="d-flex flex-column mt-3">
+    <div class="mt-2">
+        <label for="title" style="width: 130px;" class="fw-bold text-dark">Наименование</label>
+        {% if product %}
+            <input class="w-75" type="text" name="title" id="title" value="{{ product.title }}" required>
+        {% else %}
+            <input class="w-75" type="text" name="title" id="title" required>
+        {% endif %}
+    </div>
+
+    <div class="mt-2">
+        <label for="price" style="width: 130px;" class="fw-bold text-dark">Цена</label>
+        {% if product %}
+            <input class="w-75" type="text" name="price" id="price" value="{{ product.price }}" required>
+        {% else %}
+            <input class="w-75" type="text" name="price" id="price" required>
+        {% endif %}
+    </div>
+
+    <div class="mt-2">
+        <label for="image" style="width: 130px;" class="fw-bold text-dark">Фото</label>
+        {% if product %}
+            <input class="w-75" type="text" name="image" id="image" value="{{ product.image }}">
+        {% else %}
+            <input class="w-75" type="text" name="image" id="image">
+        {% endif %}
+    </div>
+
+    <div class="mt-2">
+        <label for="category" style="width: 130px;" class="fw-bold text-dark">Категория</label>
+        <select name="category" id="category">
+            {% if product %}
+                <option value="{{ product.category.pk }}">{{ product.category.category }}</option>
+            {% endif %}
+            {% for category in categories %}
+                <option value="{{ category.pk }}">{{ category.category }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="mt-2">
+        <label for="description" style="width: 130px;" class="fw-bold text-dark">Описание</label>
+        {% if product %}
+            <textarea name="description" id="description" rows="7"
+                      cols="95">{{ product.description }}</textarea>
+        {% else %}
+            <textarea name="description" id="description" rows="7" cols="95 "></textarea>
+        {% endif %}
+    </div>
+</div>
+
+<div class="d-flex mt-4">
+    {% if product %}
+        <input class="btn aqua" type="submit" value="Редактировать"/>
+    {% else %}
+        <input class="btn aqua" type="submit" value="Добавить"/>
+    {% endif %}
+</div>
+
+</form>
+
+{% if product %}
+    <a href="{% url 'show_product' product.pk %}" class="btn mt-3 mb-3 aqua">Назад</a>
+{% endif %}
+
+{% endblock %}
