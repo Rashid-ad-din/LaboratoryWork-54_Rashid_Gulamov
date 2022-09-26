@@ -1,0 +1,439 @@
+[
+{
+  "model": "webapp.category",
+  "pk": 1,
+  "fields": {
+    "category": "Бытовая техника",
+    "description": null,
+    "created_at": "2022-09-24T17:23:47.119Z",
+    "changed_at": "2022-09-24T17:26:45.920Z"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 4,
+  "fields": {
+    "category": "Телефоны",
+    "description": "",
+    "created_at": "2022-09-25T04:56:57.598Z",
+    "changed_at": "2022-09-25T04:56:57.598Z"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 5,
+  "fields": {
+    "category": "Ноутбуки",
+    "description": "",
+    "created_at": "2022-09-25T04:57:33.972Z",
+    "changed_at": "2022-09-25T04:57:33.972Z"
+  }
+},
+{
+  "model": "webapp.category",
+  "pk": 6,
+  "fields": {
+    "category": "Телевизоры",
+    "description": "",
+    "created_at": "2022-09-25T04:57:56.828Z",
+    "changed_at": "2022-09-26T19:31:05.749Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "title": "Фен Dyson",
+    "price": "800.35",
+    "image": "https://klimatika.kz/wp-content/uploads/2021/07/4000034b.jpg",
+    "description": "Желанный объект всей женской половины. Качественный, удобный, стильный, многофункциональный. ",
+    "category": 1,
+    "created_at": "2022-09-24T17:28:25.484Z",
+    "changed_at": "2022-09-26T17:33:23.641Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "title": "Notebook Asus Pro",
+    "price": "1150.45",
+    "image": "https://www.dgl.ru/wp-content/uploads/2022/04/1-2.jpg",
+    "description": "House Republicans are also plotting revenge on the select committee investigating the January 6, 2021, insurrection, CNN has reported. Former President Donald Trump has been leaning heavily on his Capitol Hill allies to defend him against a slew of damaging revelations about his role in the deadly attack on the US Capitol. And as Republicans search for ways to undermine those findings, their party has started to lay the groundwork to investigate the January 6 panel itself. Some of Trump’s fiercest acolytes have also begun publicly pushing for hearings and probes into his baseless claims of fraud in the 2020 election.",
+    "category": 5,
+    "created_at": "2022-09-24T17:28:25.484Z",
+    "changed_at": "2022-09-24T17:40:54.857Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "title": "Телевизор LG",
+    "price": "620.12",
+    "image": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F242413_1.jpg&w=3840&q=85",
+    "description": "Новейшая OLED технология. Высочайшее качество изображения.",
+    "category": 6,
+    "created_at": "2022-09-24T17:28:25.484Z",
+    "changed_at": "2022-09-26T17:34:20.053Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "title": "Стиральная машина XFGD-6155-1CV Modified Extrmely Version Special",
+    "price": "850.20",
+    "image": "https://st.depositphotos.com/1001877/5138/i/450/depositphotos_51380101-stock-photo-washing-machine.jpg",
+    "description": "Smart технология. Запланированный старт, бережная стирка, высокое качество. Гарантия -10 лет.",
+    "category": 1,
+    "created_at": "2022-09-24T17:28:25.484Z",
+    "changed_at": "2022-09-26T17:49:12.628Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "title": "Холодильник",
+    "price": "1200.50",
+    "image": "https://kuppersberg.ru/upload/resize_cache/webpfiles/iblock/90c/1000_1200/190122_LIN_8425.webp",
+    "description": "Новейшая технология Antifrost. Класс энергопотребления - Premium. Объемный морозильник. Стилный дизайн. Гарантия - 5 лет. Немецкое качество.",
+    "category": 1,
+    "created_at": "2022-09-24T17:28:25.484Z",
+    "changed_at": "2022-09-26T17:31:52.710Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "title": "Iphone 14",
+    "price": "1500.65",
+    "image": "https://mobiltelefon.ru/photo/april22/23/rassekrecheny_vse_cveta_iphone_14_i_14_pro_picture2_0.jpg",
+    "description": "Спешите купить новый айфон 14 по самой никой цене. Акция продлена до 31.12.2022 г.",
+    "category": 4,
+    "created_at": "2022-09-24T17:28:25.484Z",
+    "changed_at": "2022-09-26T17:35:01.973Z"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "title": "Samsung Galaxy",
+    "price": "535.23",
+    "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_3397_2_1.jpg",
+    "description": "Цена-качество. Вы останетесь довольны покупкой. Камера оснащена новейшей технологией стабилизации.",
+    "category": 4,
+    "created_at": "2022-09-25T19:20:10.774Z",
+    "changed_at": "2022-09-26T17:30:18.617Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$80uu5grXmBctZuSiLuPfp5$lqBhvXoFjKyPp3J954jyfirnrNARWq/Zc+a4Z8n/Vp4=",
+    "last_login": "2022-09-25T19:04:11.891Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-09-24T17:11:58.053Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
