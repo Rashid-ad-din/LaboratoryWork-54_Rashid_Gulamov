@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 
-{% block title %} Добавить продукт {% endblock %}
+{% block title %}
+    {% if category %}
+        Редактировать категорию
+    {% else %}
+        Добавить категорию
+    {% endif %}
+{% endblock %}
 
 {% block content %}
 
