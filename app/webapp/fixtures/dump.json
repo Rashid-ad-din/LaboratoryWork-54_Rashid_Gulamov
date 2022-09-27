@@ -4,9 +4,9 @@
   "pk": 1,
   "fields": {
     "category": "Бытовая техника",
-    "description": null,
+    "description": "Бытовая техника: пылесосы, микроволновки, холодильники, стиральные машины, посудомоечные машины, электроплиты.",
     "created_at": "2022-09-24T17:23:47.119Z",
-    "changed_at": "2022-09-24T17:26:45.920Z"
+    "changed_at": "2022-09-27T08:54:57.571Z"
   }
 },
 {
@@ -59,10 +59,10 @@
     "title": "Notebook Asus Pro",
     "price": "1150.45",
     "image": "https://www.dgl.ru/wp-content/uploads/2022/04/1-2.jpg",
-    "description": "House Republicans are also plotting revenge on the select committee investigating the January 6, 2021, insurrection, CNN has reported. Former President Donald Trump has been leaning heavily on his Capitol Hill allies to defend him against a slew of damaging revelations about his role in the deadly attack on the US Capitol. And as Republicans search for ways to undermine those findings, their party has started to lay the groundwork to investigate the January 6 panel itself. Some of Trump’s fiercest acolytes have also begun publicly pushing for hearings and probes into his baseless claims of fraud in the 2020 election.",
+    "description": "House Republicans are also plotting revenge on the select committee investigating the January 6, 2021, insurrection, CNN has reported. Former President Donald Trump has been leaning heavily on his Capitol Hill allies to defend him against a slew of damaging revelations about his role in the deadly attack on the US Capitol.",
     "category": 5,
     "created_at": "2022-09-24T17:28:25.484Z",
-    "changed_at": "2022-09-24T17:40:54.857Z"
+    "changed_at": "2022-09-26T20:07:37.290Z"
   }
 },
 {
@@ -111,10 +111,10 @@
     "title": "Iphone 14",
     "price": "1500.65",
     "image": "https://mobiltelefon.ru/photo/april22/23/rassekrecheny_vse_cveta_iphone_14_i_14_pro_picture2_0.jpg",
-    "description": "Спешите купить новый айфон 14 по самой никой цене. Акция продлена до 31.12.2022 г.",
+    "description": "Спешите купить новый айфон 14 по самой никой цене. Акция продлена до 31.12.2022 г. Скидка 15% для первых 30 покупателей.",
     "category": 4,
     "created_at": "2022-09-24T17:28:25.484Z",
-    "changed_at": "2022-09-26T17:35:01.973Z"
+    "changed_at": "2022-09-26T20:32:30.641Z"
   }
 },
 {
@@ -124,10 +124,10 @@
     "title": "Samsung Galaxy",
     "price": "535.23",
     "image": "https://object.pscloud.io/cms/cms/Photo/img_0_77_3397_2_1.jpg",
-    "description": "Цена-качество. Вы останетесь довольны покупкой. Камера оснащена новейшей технологией стабилизации.",
+    "description": "Цена-качество. Вы останетесь довольны покупкой. Камера оснащена новейшей технологией стабилизации. Не пожалеете.",
     "category": 4,
     "created_at": "2022-09-25T19:20:10.774Z",
-    "changed_at": "2022-09-26T17:30:18.617Z"
+    "changed_at": "2022-09-26T20:30:29.149Z"
   }
 },
 {

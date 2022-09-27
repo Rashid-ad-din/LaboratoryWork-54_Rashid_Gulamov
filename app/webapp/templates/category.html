@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %} Категории {% endblock %}
+
+{% block content %}
+
+    {% if category %}
+        <div class="pt-3">
+
+            <table class="table">
+                <thead>
+                <tr class="fs-4 aqua  rounded">
+                    <th scope="col">Категория</th>
+                    <th scope="col">Описание</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="fs-5 aqua">
+                    <td class="col-3 text-break">
+                        {{ category.category | linebreaks }}
+                    </td>
+                    {% if not category.description %}
+                        <td class="col-7"></td>
+                    {% else %}
+                        <td class="col-7 text-break">{{ category.description | linebreaks }}</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>
+                        <p class="mt-3">
+                            <a class="btn aqua"
+                               href="{% url 'edit_category' category.pk %}">Редактировать</a>
+                            <a class="btn reddish ml-3"
+                               href="{% url 'delete_category' category.pk %}">Удалить</a>
+                        </p>
+                    </td>
+
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    {% else %}
+        <p class="mt-5 ml-3 fw-bold">Список категорий пуст</p>
+    {% endif %}
+{% endblock %}
